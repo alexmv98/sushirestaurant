@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* encabezado */
+.encabezado {
+  height: 100px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.encabezado__nav-logo img {
+  width: 150px;
+  margin: 15px;
+}
+
+/* primera seccion */
+
+.seccionprimaria {
+  .seccionprimaria__fondo {
+    background-image: url("../images/cuerpo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 500px;
+    .seccionprimaria__fondo-svga {
+      position: absolute;
+      width: 100vw;
+    }
+    h1 {
+      font-family: "Merriweather", serif;
+      position: relative;
+      font-size: 1.7rem;
+      top: 200px;
+      color: white;
+      text-align: center;
+      border-bottom: solid 2px white;
+      border-top: solid 2px white;
+      width: 220px;
+      margin: auto;
+      transition: width, 0.5s;
+    }
+    h1:hover {
+      width: 260px;
+    }
+  }
+}
+
+/* segunda seccion */
+
+.seccionsegundaria {
+  width: 70%;
+  margin: 40px auto;
+  text-align: left;
+
+  .seccionsegundaria__menu,
+  .ico-menu {
+    width: 55px;
+    margin: 50px auto;
+  }
+  .seccionsegundaria__parrafo {
+    margin: 20px;
+
+    .seccionsegundaria__parrafo--numero {
+      font-family: "Merriweather", serif;
+      font-size: 3rem;
+      color: grey;
+      margin: 10px;
+    }
+    .seccionsegundaria__parrafo--titulo {
+      font-family: "Merriweather", serif;
+      margin: 10px 0;
+    }
+    .seccionsegundaria__parrafo--mas {
+      display: inline-block;
+      margin: 10px 0;
+      line-height: 35px;
+      text-decoration: none;
+      border: solid 1px rgba(0, 0, 0, 0.274);
+      width: 60px;
+      height: 40px;
+      text-align: center;
+    }
+  }
+}
+
+/* tercera seccion */
+
+.seccionterciaria {
+  width: 70%;
+  margin: 190px auto;
+  text-align: center;
+  .seccionterciaria__titulo {
+    h2 {
+      font-size: 1.7rem;
+      font-family: "Merriweather", serif;
+      margin: 30px;
+    }
+    p {
+      margin: 20px;
+    }
+  }
+  .seccionterciaria__iconos {
+    img {
+      width: 150px;
+      margin: 20px;
+      border-radius: 500px;
+    }
+  }
+}

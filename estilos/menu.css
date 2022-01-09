@@ -1,0 +1,48 @@
+/* estilos para el icono del menu */
+
+.icono-menu {
+  margin: 40px 30px;
+  position: relative;
+  z-index: 100;
+  text-align: right;
+}
+
+/* estilos para el contenedor del menu */
+
+.cont-menu {
+  background-color: hsla(0, 0%, 0%, 0.938);
+  box-shadow: 2px 0 5px 2px rgb(66, 66, 66);
+  width: 400px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: all 0.2s ease;
+  z-index: 99;
+}
+/* estilos por agregar en js */
+
+.active {
+  transform: translate(-800px);
+}
+
+/* estilos para el listado del menu */
+
+.cont-menu ul {
+  padding: 90px 0 20px 0;
+  list-style: none;
+}
+
+.cont-menu ul li {
+  color: white;
+  display: block;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.cont-menu ul li:hover {
+  background-color: rgb(228, 228, 228);
+  color: rgb(42, 42, 42);
+}
